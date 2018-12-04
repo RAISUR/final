@@ -18,3 +18,11 @@
   },
   "homepage": "https://github.com/RAISUR/final#readme"
 }
+app.get('/', function (req, res) {
+  res.send('root')
+})
+
+ global app.get('/raisur/index.html', function (httprequest, httpresponse) {
+  res.send('index.html')
+})
+
